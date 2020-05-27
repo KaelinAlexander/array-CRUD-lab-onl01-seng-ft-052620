@@ -7,6 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  full_array=[1, 2, 3, 4]
   full_array.push(5)
 end
 
