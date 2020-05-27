@@ -6,7 +6,7 @@ def create_an_array
   full_array=[1, 2, 3, 4]
 end
 
-def add_element_to_end_of_array(full_array, 5)
+def add_element_to_end_of_array(array, element)
   full_array.push(5)
 end
 
@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  full_array.pop(0)
+  full_array.pop(
 end
 
 def retrieve_element_from_index(array, index_number)
